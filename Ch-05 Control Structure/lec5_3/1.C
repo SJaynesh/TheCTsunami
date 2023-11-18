@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main() {
+
+	int a,b,c;
+
+	clrscr();
+
+	printf("Enter a vcalue of the first number : ");
+	scanf("%d",&a);
+	printf("Entera value of second number : ");
+	scanf("%d",&b);
+	printf("Enter value of third number : ");
+	scanf("%d",&c);
+
+	(a<b)
+		? (a<c)
+			? printf("The minimum value is : %d",a)
+			: printf("The minimum value is : %d",c)
+		: (b<c)
+			? printf("The minimum vakue is : %d",b)
+			: printf("The minimum value is : %d",c);
+
+	getch();
+}
