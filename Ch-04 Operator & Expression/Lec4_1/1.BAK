@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main() {
+
+	int a,b,c;
+	clrscr();
+
+	printf("Enter the a\t:");
+	scanf("%d",&a);
+	printf("Enter the b\t:");
+	scanf("%d",&b);
+
+	printf("\n\t-- Value --\n");
+	printf("\t A\t: %d",a);
+	printf("\t B\t: %d",b);
+
+	a = b; // 10 = 20 a = 20
+	b = a; // 20 = 10 b = 10
+
+	printf("\n\n\t-- Swapping --\n");
+	printf("\t A\t: %d",a);
+	printf("\t B\t: %d",b);
+
+	getch();
+}
