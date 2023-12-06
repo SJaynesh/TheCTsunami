@@ -32,7 +32,7 @@ main() {
 		}else {
 			
 			validEmail = 0;
-			
+			brack;
 		}
 		
 	}
