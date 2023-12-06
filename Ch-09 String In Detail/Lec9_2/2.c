@@ -46,7 +46,7 @@ main() {
 		}else {
 			
 			validPassword = 0;
-			
+			brack;
 		}
 		
 	}
